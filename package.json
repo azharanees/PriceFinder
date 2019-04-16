@@ -1,0 +1,39 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "PriceFinder backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node node_modules/babel-cli/bin/babel.js ./ --source-maps --out-dir dist",
+    "start": "node node_modules/nodemon/bin/nodemon.js -- node_modules/babel-cli/bin/babel-node.js server.js",
+    "populate": "node node_modules/babel-cli/bin/babel-node.js populate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azharanees/PriceFinder.git"
+  },
+  "keywords": [
+    "nodejs",
+    "pricefinder"
+  ],
+  "author": "Azhar Ahamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azharanees/PriceFinder/issues"
+  },
+  "homepage": "https://github.com/azharanees/PriceFinder#readme",
+
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "@types/request": "2.47.0",
+    "@types/node": "10.0.3",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.3",
+    "tslint": "^5.15.0"
+
+  }
+}
