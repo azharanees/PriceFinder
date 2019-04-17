@@ -1,0 +1,6 @@
+[submodule "NLP1"]
+	path = NLP1
+	url = https://github.com/yoosufmuneer/nlp.git
+[submodule "NLP"]
+	path = NLP
+	url = https://github.com/yoosufmuneer/nlp.git
