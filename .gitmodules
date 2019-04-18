@@ -2,3 +2,6 @@
 [submodule "NLP"]
 	path = NLP
 	url = https://github.com/yoosufmuneer/nlp.git
+[submodule "UI"]
+	path = UI
+	url = https://github.com/MerianLesster/PriceFinderUI.git
