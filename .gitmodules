@@ -5,3 +5,6 @@
 [submodule "UI"]
 	path = UI
 	url = https://github.com/MerianLesster/PriceFinderUI.git
+[submodule "BASE"]
+	path = BASE
+	url = https://github.com/azharanees/pricefinderBase.git
