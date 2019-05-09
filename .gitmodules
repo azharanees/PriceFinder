@@ -8,3 +8,6 @@
 [submodule "BASE"]
 	path = BASE
 	url = https://github.com/azharanees/pricefinderBase.git
+[submodule "pricefinderBase"]
+	path = pricefinderBase
+	url = https://github.com/azharanees/pricefinderBase.git
